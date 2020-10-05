@@ -1,7 +1,7 @@
 var board = document.getElementById("board");
 var ctx = board.getContext("2d");
 document.addEventListener("keydown", keyPush);
-setInterval(game, 100);
+setInterval(game, 1000/15);
 
 var px = 10;
 var py = 10;
